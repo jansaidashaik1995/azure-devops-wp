@@ -1,0 +1,7 @@
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'cez-white(1)(03986dec-30a6-459f-8652-c3e4518477a7)'
+    appType: 'webApp'
+    appName: 'ces-wp-test'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
