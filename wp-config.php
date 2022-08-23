@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'northcott-db');
+define('DB_NAME', 'cloud-mysql-db');
 
 /** MySQL database username */
-define('DB_USER', 'northcottdbuser');
+define('DB_USER', 'cesol');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'MrML54ktPr%1');
+define('DB_PASSWORD', 'cloudearl@123');
 
 /** MySQL hostname */
-define('DB_HOST', 'norhtcott-db.mysql.database.azure.com');
+define('DB_HOST', 'cloud-mysql-db.mysql.database.azure.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
